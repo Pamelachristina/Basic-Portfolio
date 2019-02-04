@@ -52,6 +52,7 @@ a{
    
 }
 
+/* MY PICTURE */
 #absolute{
     background-color: #4aaaa5;
     padding-left: 40px;
@@ -93,7 +94,7 @@ a{
 p{
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;   
+    font-size: 18px;   
 }
 
 
@@ -102,18 +103,22 @@ p{
     margin: 10px;
 }
 
-#paragraph-wrap{
-    float: left;
-    padding: 0px, 20px, 8px, 0px;
-    text-align: center;
+#p {
+   padding: 0
+    text-align: justify;
 }
 
 
-#main-bio{
-   height: 1200px;
-   margin: 0;
-  
+#main-bio {
 
+}
+
+h1{
+   color: #fff;
+   margin: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 20px;
+   text-align: center;
 }
 
 
@@ -175,7 +180,12 @@ h4{
    margin: 20px;
    float:left;
   
+}
 
+.clear-fix::after {
+     content: "";
+     clear: both;
+     display: table;
 }
 
 
@@ -217,23 +227,176 @@ h4{
     border: none;
 
 }
-footer{
+#footer{
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     height: 100px;
     padding: 0;
     text-align: center;
     color: #fff;
-    
-}
-
-#footer{
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    
+   
 }
 
 
+
+@media only screen and (max-width: 639px) {
+
+
+
+li{
+    display: inline; 
+    padding-inline-start: 30px;
+
+}
+
+a{
+    text-decoration: none; 
+    color: #777777; 
+    width: 145px;
+    height: 200px;
+   
+}
+
+#absolute{
+    background-color: #4aaaa5;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 22px;
+    width: 240px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    top: 10px;
+    right: 25px;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+   
+}
+
+.navigation{
+    position: static;
+    top: 80px;
+    padding: 10px;
+    right: 230px;
+    
+  }
+
+nav{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+
+p{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;   
+    padding-left: 10px;
+    padding-right: 15px;
+    width: 400px;
+
+}
+
+h1{
+    color: #fff;
+    margin: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+ }
+
+ .container{
+    clear: both;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;  
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+#absolute{
+    top: 10px;
+    width: 400px;
+    height: 100px;
+   
+   
+}
+
+.navigation{
+    position: static;
+    top: 80px;
+    padding: 10px;
+    right: 230px;
+    margin: 40px;
+    
+  }
+
+h1{
+    margin-left: -45px;
+
+}
+
+a{
+    font-size: x-large;
+}
+
+.pics{
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    float:left;
+   
+ 
+ }
+
+
+ .my-form{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #777777;
+
+
+}
+
+
+
+    
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 980px) {
+    
+
+}
 
 
 
